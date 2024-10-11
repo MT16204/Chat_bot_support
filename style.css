@@ -52,15 +52,15 @@ h2 {
     opacity: 1; */
 }
 
-.logo {
-    color: var(--snd-main-color);
+/* .logo {
+    color: var(--black-color);
     cursor: pointer;
-}
+} */
 
 .logo a {
     letter-spacing: 2.5;
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--black-color);
 }
 
 .navbar-menu {
@@ -72,7 +72,7 @@ h2 {
 }
 
 .navbar-menu a {
-    color: var(--text-color);
+    color: var(--black-color);
     text-decoration: none;
 }
 
@@ -140,7 +140,7 @@ header {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    z-index: 999;
+    z-index: 1000;
 
 }
 
@@ -164,13 +164,14 @@ header {
 }
 
 .chatbot{
-    top: 40px;
+    position: fixed;
+    top: 50px;
     right: 40px;
     bottom: 100px;
     color: var(--black-color);
     background: var(--background);
     width: 420px;
-    position: fixed;
+  
     border-radius: 25px;
     transform-origin: bottom;
     box-shadow: 0 0 32px rgba(0, 0, 0, 0.2),
@@ -179,7 +180,7 @@ header {
     opacity: 0;
     pointer-events: none;
     transition: all 0.1s ease;
-    z-index: 1000;
+    z-index: 900;
     overflow: hidden; /* Ẩn phần nội dung bị tràn ra ngoài */
 }
 
@@ -206,8 +207,6 @@ header {
     height: 510px;
     overflow-y: auto;
     padding: 30px 20px 100px;
-    
-    
 }
 
 .chatbox .chat{
@@ -232,13 +231,13 @@ header {
 }
 
 .chatbox .chat p{
-    max-width: 85%; /* Giảm độ rộng để khoảng cách text đều hơn */
+    max-width: 75%; /* Giảm độ rộng để khoảng cách text đều hơn */
     white-space: pre-wrap;
     background: var(--main-color);
     color: var(--text-color);
     font-size: 0.94rem;
-    padding: 12px 18px;
-    border-radius: 15px 15px 0 15px; /* Bo góc mềm hơn */
+    padding: 12px 16px;
+    border-radius: 10px 10px 0 10px; /* Bo góc mềm hơn */
 }
 
 .chatbox .incoming p{
@@ -253,24 +252,24 @@ header {
     bottom: 0;
     left: 0; /* Đảm bảo chat-input bám sát lề trái */
     width: 100%; /* Đảm bảo chiếm hết chiều rộng của khung chatbox */
-    gap: 10px; /* Tăng khoảng cách giữa các phần */
+    gap: 5px; /* Tăng khoảng cách giữa các phần */
     border-top: 1px solid #ccc;
     padding: 5px 20px;
     background: var(--background);
     border-radius: 15px;
-
-    box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước thật */
 }
 
 .chat-input textarea {
-    height: 50px; /* Chiều cao phù hợp */
-    width: 100%; /* Đảm bảo textarea chiếm hết phần chiều rộng còn lại */
     border: none;
     outline: none;
-    font-size: 0.95rem;
+    height: 40px; /* Chiều cao phù hợp */
+    width: 100%; 
+    font-size: 0.94rem;
     resize: none;
-    padding: 10px; /* Điều chỉnh padding để không bị tràn */
-    border-radius: 10px;
+    padding: 14px 13px 14px 0; 
+    border-radius: 8px;
+    max-height: 180px;
+    overflow: hidden; /* Ẩn thanh cuộn trong textarea */
 }
 
 
@@ -281,7 +280,13 @@ header {
     color: var(--main-color);
     font-size: 1.3rem;
     cursor: pointer;
+    visibility: hidden;
 }
+
+.chat-input textarea:valid ~ span{
+    visibility: visible;
+}
+
 
 /* Media Query for Responsiveness */
 @media(max-width: 490px) {
@@ -342,19 +347,19 @@ header {
     display: flex;
     align-items: center;
     padding: 10px 15px;
-    color: var(--text-color);
+    color: var(--black-color);
     cursor: pointer;
 }
 
 .menu-dropdown a i {
     margin-right: 5px;
-    color: var(--text-color);
+    color: var(--black-color);
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: var(--snd-main-color);
+    background-color: var(--main-color);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     z-index: 1;
     top: 100%; 
@@ -393,7 +398,7 @@ header {
 .members h2 {
     font-size: 3rem;
     font-weight: 800;
-    color: var(--black-color);
+    color: var(--text-color);
     margin-bottom: 3rem;
     display: flex;
     justify-content: center;
@@ -427,7 +432,7 @@ header {
     align-items: center;
     padding: 2rem;
     color: var(--black-color);
-    background-color: white; /* To make the box visible */
+    background-color: var(--background);
 }
 
 .img {
