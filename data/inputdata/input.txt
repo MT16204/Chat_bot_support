@@ -1,0 +1,66 @@
+{
+    "màn hình bật không lên": [
+        "Nguyên nhân:  do dây cáp màn hình bị lỏng hoặc hỏng.\nBiện pháp: Hãy thử kiểm tra và cắm lại dây cáp màn hình cho chắc chắn. Thử thay dây cáp khác nếu cần.",
+        "Nguyên nhân:  do màn hình bị hỏng.\nBiện pháp: Hãy thử kết nối với màn hình ngoài để kiểm tra. Nếu màn hình ngoài hiển thị bình thường thì cần thay màn hình laptop."
+    ],
+    "màn hình màu xanh": [
+        "Nguyên nhân:  do lỗi phần cứng hoặc driver không tương thích.\nBiện pháp: Hãy kiểm tra và làm theo hướng dẫn sau: https://www.dienmayxanh.com/kinh-nghiem-hay/cach-khac-phuc-laptop-bi-man-hinh-xanh-1550913"
+    ],
+    "màn hình đen": [
+        "Nguyên nhân:  do máy tính khởi động nhưng không hiển thị gì.\nBiện pháp: Hãy kiểm tra dây cáp màn hình hoặc thử khởi động lại máy."
+    ],
+    "màn hình bị sọc": [
+        "Nguyên nhân:  do lỗi kết nối cáp màn hình hoặc driver đồ họa không ổn định.\nBiện pháp: Hãy kiểm tra và đảm bảo cáp màn hình được kết nối chắc chắn và cập nhật driver đồ họa.",
+        "Nguyên nhân:  do màn hình bị hỏng hoặc có điểm chết.\nBiện pháp: Thử kết nối với màn hình ngoài. Nếu màn hình ngoài hiển thị bình thường, có thể cần thay màn hình laptop."
+    ],
+     "máy tính không nhận màn hình ngoài": [
+        "Nguyên nhân:  do cáp kết nối hỏng hoặc cấu hình hiển thị sai.\nBiện pháp: Hãy kiểm tra cáp kết nối và cấu hình lại chế độ hiển thị màn hình."
+    ],
+    "lỗi kết nối mạng Wi-Fi": [
+        "Nguyên nhân:  do tín hiệu Wi-Fi yếu hoặc cài đặt mạng sai.\nBiện pháp: Hãy thử gần lại router và kiểm tra cài đặt."
+    ],
+    "máy tính của tôi chạy chậm": [
+        "Nguyên nhân:  do trên máy tính của bạn đang có quá nhiều phần mềm đang chạy nền.\nBiện pháp: Hãy thử tắt bớt những ứng dụng không cần thiết.",
+        "Nguyên nhân:  do máy tính của bạn đang bị đầy dung lượng.\nBiện pháp: Hãy thử xoá bớt những file, dữ liệu không dùng đến."
+    ],
+     "máy tính quá nóng": [
+        "Nguyên nhân:  do quạt tản nhiệt không hoạt động tốt hoặc máy quá bụi bẩn.\nBiện pháp: Hãy kiểm tra quạt tản nhiệt, vệ sinh máy, và đảm bảo máy được đặt ở nơi thoáng mát."
+    ],
+    "khởi động không vào được hệ điều hành": [
+        "Nguyên nhân:  do ổ cứng hỏng hoặc tệp hệ thống bị lỗi.\nBiện pháp: Hãy kiểm tra ổ cứng và thực hiện sửa chữa hệ thống nếu cần."
+    ],
+    "lỗi phần mềm": [
+        "Nguyên nhân:  do ứng dụng không mở được hoặc thường xuyên bị treo.\nBiện pháp: Hãy thử gỡ cài đặt và cài đặt lại phần mềm đó."
+    ],
+    "lỗi khi cài đặt hoặc cập nhật phần mềm": [
+        "Nguyên nhân:  do không đủ dung lượng lưu trữ hoặc xung đột với phần mềm khác.\nBiện pháp: Hãy giải phóng không gian lưu trữ và kiểm tra các phần mềm đang chạy."
+    ],
+    "lỗi driver": [
+        "Nguyên nhân:  do driver không tương thích với phần cứng.\nBiện pháp: Hãy cập nhật hoặc cài đặt lại driver tương thích."
+    ],
+    "lỗi không nhận USB": [
+        "Nguyên nhân:  do thiết bị USB không được nhận diện.\nBiện pháp: Hãy thử cắm vào cổng USB khác hoặc thử trên máy tính khác."
+    ],
+    "lỗi kết nối Bluetooth": [
+        "Nguyên nhân:  do thiết bị Bluetooth không được bật hoặc không tương thích.\nBiện pháp: Hãy kiểm tra xem Bluetooth đã được bật và thiết bị có tương thích hay không."
+    ],
+    "lỗi âm thanh": [
+        "Nguyên nhân:  do driver âm thanh không hoạt động hoặc bị tắt.\nBiện pháp: Hãy kiểm tra và cập nhật driver âm thanh."
+    ],
+    "lỗi cài đặt driver": [
+        "Nguyên nhân: :  do xung đột với phần mềm khác.\nBiện pháp: Hãy thử gỡ bỏ phần mềm xung đột và cài đặt lại driver."
+    ],
+    "lỗi khi cài đặt hệ điều hành": [
+        "Nguyên nhân:  do không thể cài đặt hệ điều hành mới.\nBiện pháp: Hãy kiểm tra yêu cầu cài đặt và thử lại theo hướng dẫn như sau:\nhttps://www.thegioididong.com/hoi-dap/8-cach-sua-loi-may-tinh-windows-khong-cai-duoc-phan-mem-1370997"
+    ],
+    "lỗi khi cài đặt phần mềm": [
+        "Nguyên nhân:  do xung đột phần mềm hoặc thiếu quyền truy cập.\nBiện pháp: Hãy làm theo hướng dẫn sau để khắc phục sự cố:\nhttps://quantrimang.com/cong-nghe/khac-phuc-van-de-khong-cai-duoc-phan-mem-tren-windows-108217"
+    ],
+    "máy tính bị nhiễm virus": [
+        "Nguyên nhân:  do bạn đã tải về phần mềm độc hại có chứa virus.\nBiện pháp: Hãy nhanh chóng xử lý theo hướng dẫn như sau:\nhttps://maytinhcdc.vn/laptop-bi-nhiem-virus.html"
+    ],
+    "máy tính không nhận card đồ họa rời": [
+        "Nguyên nhân:  do lỗi driver hoặc card đồ họa không hoạt động.\nBiện pháp: Hãy cập nhật driver hoặc kiểm tra lại card đồ họa."
+    ]
+    
+}

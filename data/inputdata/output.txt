@@ -1,0 +1,12 @@
+User: xin chào
+Bot: Chào bạn! Tôi có thể giúp gì được cho bạn?
+
+User: tôi đang có vấn đề
+Bot: Bạn có thể cung cấp thêm cho tôi về vấn đề của bạn được không?
+
+User: màn hình của tôi bật không lên
+Bot: Xin thứ lỗi, tôi không thể xử lý yêu cầu của bạn.
+
+User: màn hình của tôi bật không lên
+Bot: Xin thứ lỗi, tôi không thể xử lý yêu cầu của bạn.
+
