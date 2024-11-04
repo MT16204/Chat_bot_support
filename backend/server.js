@@ -1,10 +1,10 @@
-const fs = require('fs');
+const fs = require ('fs');
 const path = require('path');
 const express = require('express');
 require('dotenv').config(); 
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 
 app.use(express.json());

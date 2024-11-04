@@ -1,3 +1,3 @@
-User: tạm biệt
-Bot: Tạm biệt! Chúc bạn một ngày tốt lành.
+User: xin chào
+Bot: Chào bạn! Tôi có thể giúp gì được cho bạn?
 
